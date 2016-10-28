@@ -38,8 +38,8 @@ nodebrew use v7.0.0
 ### Settings
 
 ```
-echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> .bashrc
-echo 'export NODEBREW_ROOT=$HOME/.nodebrew' >> .bashrc
+echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bashrc
+echo 'export NODEBREW_ROOT=$HOME/.nodebrew' >> ~/.bashrc
 source ~/.bashrc
 ```
 
