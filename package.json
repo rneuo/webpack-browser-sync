@@ -1,0 +1,43 @@
+{
+  "name": "webpack-browser-sync",
+  "version": "1.0.0",
+  "description": "webpack + browser-sync",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rneuo/webpack-browser-sync.git"
+  },
+  "author": "rneuo",
+  "bugs": {
+    "url": "https://github.com/rneuo/webpack-browser-sync/issues"
+  },
+  "homepage": "https://github.com/rneuo/webpack-browser-sync#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.17.5",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "css-loader": "^0.25.0",
+    "dotenv": "^2.0.0",
+    "eslint": "^3.8.1",
+    "eslint-config-google": "^0.7.0",
+    "eslint-loader": "^1.6.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.4"
+  }
+}
