@@ -9,7 +9,7 @@
         "sourceType": "module"
     },
     "globals": {
-        "ENV": true
+        "process": true
     },
     "rules": {
         "comma-dangle": [

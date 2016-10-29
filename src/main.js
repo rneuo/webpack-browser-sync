@@ -3,4 +3,4 @@ import _ from 'lodash'
 import $ from 'jquery'
 
 const template = _.template(HelloWorld)
-$('body').append(template({ title: ENV.HELLO_WORLD }))
+$('body').append(template({ title: process.env.HELLO_WORLD }))
