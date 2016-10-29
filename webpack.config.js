@@ -24,8 +24,8 @@ var extractText = new ExtractTextPlugin('style-bundle.css')
 var browserSync = new BrowserSyncPlugin({
   host: 'localhost',
   port: 3001,
-  server: { baseDir: ['public'] },
-  files: ['src/*.css', 'src/*.js', 'public/*.html']
+  server: { baseDir: ['public', 'src/html'] },
+  files: ['src/*.css', 'src/*.js', 'src/*.html']
 }, { reload: true })
 var jsPlugins = isProduction ? [defineEnv, uglify, assets] : [defineEnv, browserSync, assets]
 var cssPlugins = isProduction ? [extractText, uglify, assets] : [extractText, browserSync, assets]
