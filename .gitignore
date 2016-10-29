@@ -9,3 +9,5 @@ style.css**
 *.svg
 *.woff2
 .env
+npm-*.log
+public/assets
